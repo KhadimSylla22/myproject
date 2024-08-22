@@ -1,0 +1,466 @@
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*login page*/
+
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  
+  
+  /* Add padding to containers */
+  .container {
+   padding: 50px ;
+    text-align: center;
+  }
+  
+  
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+
+  /*------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+  body{
+    font-family: 'Century Gothic',calibri, serif;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+header{
+    height: 100px;
+}
+footer{
+    height: 50px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #BDB76B;
+    border-top: 2px solid #fff;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: #000000;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav a{
+    font-size: 20px;
+    color: #fff;
+    display:  inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    
+}
+.table{
+    display: table;
+    margin: 0 auto;
+}
+.menu-accueil:hover, .menu-CV:hover, .menu-ancre1:hover, .menu-ancre2:hover, .menu-ancre3:hover, .menu-contact:hover{
+ -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+section{
+ width: 100%;
+ min-height: 300px;
+ padding-bottom: 3px;
+ margin-bottom: 3px;
+ background-color: #D3D3D3;
+ 
+}
+.accueil{
+font-size: 27px;
+padding-bottom: 3px;
+margin-bottom: 3px;
+}
+section li{
+ list-style-type:  circle;
+ margin-top:35px;
+}
+.sec{
+ margin: 0px 25%;
+ font-size: 30px;
+ font-weight: normal;
+ display: flex;
+  justify-content: space-between;
+}
+
+.vêtements-hommes{
+ height: 600px;
+ font-size: 40px;
+ font-weight: normal;
+ text-align: center;
+ padding-bottom: 3px;
+ margin-bottom: 3px;
+}
+
+.left{
+ width: 30%;
+ float: left;
+}
+.right{
+ float: left;
+ width: 30%;
+}
+.vêtements-femmes{
+ height: 600px;
+ font-size: 40px;
+ font-weight: normal;
+ text-align: center;
+ 
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*hommes1*/
+.left1{
+ float: left;
+ width: 30%
+}
+.right1{
+ float: left;
+ width: 70%;
+ height: 800px;
+ font-size: 20px;
+ font-weight: normal;
+}
+.offre{
+ height: 60px;
+ width: 100%;
+ background-color: #708090;
+border: 1px solid #000000;
+
+}
+.offre .ofrre-icon{
+ display: inline-block;
+ background-position: -260px -872px;
+ margin: 0 10px 0 16px;
+
+}
+.offre .offre-text{
+ color: #333;
+ font-size: 25px;
+ font-weight: 700;
+}
+.offre span{
+ vertical-align: 70%;
+}
+.prix{
+ display: flex;
+ justify-content: space-between;
+}
+td{
+ border: 1px ridge #DCDCDC;
+
+}
+table{
+ border-collapse: collapse;
+}
+.prix1{
+ color: #333;
+ font-size: 25px;
+ font-weight: 700;
+}
+.prix2{
+ font-size: 18px;
+}
+#hi input{
+ display: inline-block;
+ padding: 10px 0px 15px 40px;
+}
+
+.hi{
+padding: 10px;
+margin: 20px 0px;
+ 
+}
+
+.Description{
+ margin: 0px 35%;
+ font-size: 30px;
+ font-weight: normal;
+}
+.photos{
+ margin: 0px 30%;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*contact*/
+.contact{
+ width: 100%;
+ height: 800px;
+}
+
+a{
+color:black;
+}
+ul{
+list-style:none;
+}
+.p0{
+padding:100px;  
+ }
+
+.p1{
+ 
+font:normal bold 30px/45px tahoma;
+position:absolute;
+top:150px;
+right:800px;
+border-radius:10px;
+padding:5px;
+float:left; 
+ }
+ 
+.p2{
+font:normal bold 20px/22.5px tahoma;
+position:absolute;
+top:270px;
+left:20px;
+}
+.p3{
+font:normal bold 20px/22.5px tahoma;
+position:absolute;
+top:270px;
+right:450px;
+}
+.p4{
+font:normal bold 20px/22.5px tahoma;
+    position:absolute;
+top:270px;
+right:70px;
+    ;
+}
+
+/*cv*/
+
+.troisCV {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.Ali {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top:100px;
+    color: black;
+}
+.Ali:hover .content .Autre{
+    color:black;
+}
+.Ali .content .Autre {
+    transition: 1s;
+    color: transparent;
+}
+.Aboubacar:hover .content .Autre{
+    color:black;
+}
+.Aboubacar .content .Autre {
+    transition: 1s;
+    color: transparent;
+}
+.Bao:hover .content .Autre{
+    color:black;
+}
+.Bao .content .Autre {
+    transition: 1s;
+    color: transparent;
+}
+.Aboubacar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top:0px;
+    color: black;
+}
+.Bao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top:100px;
+    color: black;
+}
+
+.pay{
+ background-color: #D3D3D3;
+}
+.title{
+ font-size: 20px;
+}
+.payment{
+  background: #4169E1;
+  border: 1px solid #000;
+  max-width: 360px;
+  margin: 80px auto;
+  height: auto;
+  padding: 35px;
+  padding-top: 70px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.payment h2{
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.form .label{
+  display: block;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.input{
+  padding: 13px 0px 13px 3px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #dddddd;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  outline: dotted;
+  font-size: 16px;
+  color: #555555;
+}
+
+.card-grp{
+  display: flex;
+  justify-content:  space-between;
+}
+
+.card-item{
+  width: 48%;
+}
+
+.space{
+  margin-bottom: 20px;
+}
+
+.icon-relative{
+  position: relative;
+}
+
+.icon-relative .fas,
+.icon-relative .far{
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+  font-size: 20px;
+  color: #555555;
+}
+
+.btn{
+  margin-top: 40px;
+  background: #696969;
+  padding: 12px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media screen and (max-width: 420px){
+  .card-grp{
+    flex-direction: column;
+  }
+  .card-item{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .btn{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 750px){
+    header{
+        height: 50px;
+    }
+    h1{
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    nav{
+        height: 25px;
+    }
+    nav a{
+        font-size: 7px;
+        padding: 10px;
+    }
+}

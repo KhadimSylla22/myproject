@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+        <head>
+            <title>vêtements-vente</title>
+            <meta name="viewport" content="width=device-width, initial-socale=1.0">
+            <meta charset="utf-8">
+            <link  rel="stylesheet"  href="style.css">
+            <meta name="description" content="Vendre des vêtements de mode ">
+             <script type="text/javascript" src="script.js"></script>
+         
+        </head>
+        <body>
+            <header>
+                <h1>vêtements-vente</h1>
+            </header>
+            <nav>
+                <div class="table">
+                    <ul>
+                        <li class="menu-accueil">
+                            <a href="accueil.html">Accueil</a>
+                        </li>
+                        
+                        <li class="menu-ancre1">
+                            <a href="#ancre1">Vêtements hommes</a>
+                        </li>
+                        <li class="menu-ancre2">
+                            <a href="#ancre2">Vêtements femmes</a>
+                        </li>
+                        <li class="menu-ancre3">
+                            <a href="#anrce3">Vêtements bébés</a>
+                        </li>
+                        <li class="menu-CV">
+                          <a href="CV.html">Qui sommes-nous?</a>
+                        </li>
+                           
+                        <li  class="menu-contact">
+                           <a href="contact.html">Contactez-nous !</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <article>
+                <section class="accueil">
+                        <ul>
+                        <li>Pour voir nos profils cliquez sur "Qui sommes-nous ?"</li>
+                        <br><li>Merci de bien vouloir remplir ce questionnaire en cliquant </li>
+                        <br><li>Si vous avez un problème à signaler nous vous prions de vous diriger vers la page "Contactez-nous"</li>
+                        </ul>
+                        
+                        
+                </section>
+                <section class="vêtements-hommes">
+                        <h2 id="ancre1">vêtements hommes</h2>
+                  <br>   <div class="sec">
+                           <div class="left">
+                               <img src="photos/1/1.jpg" alt="Men's Dress Shirts " width="250" height="300">
+                               <br><a href="homme1.html">
+                                          <button style="height: 30px; width: 230px">Men's Dress Shirts</button>
+                                   </a>  
+                           </div>
+                           <div class="right">
+                                <img src="photos/5.jpg" alt="Pantalon pour Homme" width="250" height="300">
+                               <br><a href="accueil.html" onClick="f();">
+                                <button style="height: 30px; width: 230px">Homme Pantalon</button>
+                               </a>
+                           </div>
+                         </div>
+                </section>
+        
+                <section class="vêtements-femmes">
+                        <h2 id="ancre2">vêtements femmes</h2>
+                   <br>  <div class="sec">
+                           <div class="left">
+                                <img src="photos/femme/femme1.jpg" alt="Pantalon carotte taille cordon" width="250" height="300">
+                                <br><a href="femme1.html">
+                                <button style="height: 30px; width: 230px">Pantalon femme</button>
+                               </a>
+                                
+                           </div>
+                           <div class="right">
+                                <img src="photos/femme2.jpg" alt="Sweatshirt Femme" width="250" height="300">
+                                <br><a href="accueil.html" onClick="f();">
+                                <button style="height: 30px; width: 230px">Sweatshirt Femme</button>
+                               </a>
+                           </div>
+                         </div> 
+                </section>
+                <section class="vêtements bébés">
+                          <h2 id="ancre1">vêtements bébés</h2>
+                  <br>   <div class="sec">
+                           <div class="left">
+                               <img src="photos/bodybébé3.jpg" alt="Body Bébé Garcon" width="250" height="300">
+                               <br><a href="vetementsbébésgarcon.html">Body Bébé Garcon</a>
+                           </div>
+                           <div class="right">
+                                <img src="photos/pyjama1.jpg" alt="Pyjama Bébé Fille" width="250" height="300">
+                               <br><a href="vetementsbébésfille.html">Pyjama Bébé Fille</a>
+                           </div>
+                         </div>
+                        
+                </section>
+                <section class="questionnaire">
+                        <br><br><h2>Quizz général sur la programmation</h2><br><br><br><br>
+                        <div id="res"></div>
+                                <hr/>
+                        <form id="form1">
+                              <tr><td align="left"><p>
+                                        <div class="div1">Qui a été le premier pionnier de la programmation ?</div><br>
+                                        <input class="i1"type="radio" id="ch0_0" name="choix0" value="0"><label for="ch0_0">Steve Jobs</label><br/>
+                                        <input class="i2" type="radio" id="ch0_1" name="choix0" value="1"><label for="ch0_1">Alan Turing</label><br/>
+                                        <table width="90%" cellpadding="50" cellspacing="0">
+                                        <input class="i3" type="radio" id="ch0_2" name="choix0" value="2"><label for="ch0_2">Bill Gate</label><br/>
+                                        <input class="i4" type="radio" id="ch0_3" name="choix0" value="3"><label for="ch0_3">Konrad Zuse</label> 
+                                        </p>
+                                   </td>
+                                
+                                   <td align="center">
+                                        <p>
+                                                <div class="div2">Quel est le langage de programmation le plus connu au monde ?</div><br>
+                                                <input class="i5" type="radio" id="ch1_0" name="choix1" value="0"><label for="ch1_0">Le PHP</label><br/>
+                                                <input class="i6" type="radio" id="ch1_1" name="choix1" value="1"><label for="ch1_1">Phyton</label><br/>
+                                                <input class="i7" type="radio" id="ch1_2" name="choix1" value="2"><label for="ch1_2">Le JavaScript</label><br/>
+                                                <input class="i8" type="radio" id="ch1_3" name="choix1" value="3"><label for="ch1_3">Le Java</label>
+                                        </p>
+                                   </td>
+                                   <td align="right">
+                                        <p>
+                                                <div class="div3">Comment s'appelle le tout premier ordinateur ?</div><br>
+                                                <input class="i9" type="radio" id="ch2_0" name="choix2" value="0"><label for="ch2_0">L'ADMX</label><br/>
+                                                <input class="i10" type="radio" id="ch2_1" name="choix2" value="1"><label for="ch2_1">La CMDB</label><br/>
+                                                <input class="i11" type="radio" id="ch2_2" name="choix2" value="2"><label for="ch2_2">L'UEMOA</label><br/>
+                                                <input class="i12" type="radio" id="ch2_3" name="choix2" value="3"><label for="ch2_3">L'ENIAC</label>
+                                        </p>
+                                  </td>
+                                  </tr>
+	  
+                                    </table>
+          
+                                  <input class="i13" type="submit" />
+                        </form>
+  
+                        
+                </section>
+             </article>
+            <footer>
+                <p>copyrights 2020 vêtements-vente - Toute reproduction est interdite</p>
+            </footer>
+            
+        </body>
+</html>
